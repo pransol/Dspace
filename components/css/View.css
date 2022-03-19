@@ -1,0 +1,65 @@
+#data {
+    position: absolute;
+    right: 5pc;
+    top: 10pc;
+    width: 30vw;
+    height: 90vh;
+    /* background-color: red; */
+}
+
+
+#back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10pc;
+    height:3pc;
+    outline: none;
+    border: none;
+    color: #0476D0;
+    background: transparent;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-size: 45px;
+    padding: 1px 1px 3px 0px;
+}
+
+#title{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: #024376;
+    text-transform: uppercase;
+}
+
+#data {
+    margin-top: 10pc;
+   
+}
+
+#data p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: #024376;
+    text-align: end;
+}
+
+#data button {
+    
+     /* margin-left: 4pc; */
+     width: 10pc;
+     height:3pc;
+     margin-left: 25pc;
+     /* margin-top: 2pc; */
+     outline: none;
+     border: 2px solid #0476D0 ;
+     color: #0476D0;
+     background: transparent;
+     font-size: 20px;
+     font-family: 'Barlow Condensed', sans-serif;
+     letter-spacing: 2px;
+     font-size: 22px;
+}

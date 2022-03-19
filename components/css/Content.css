@@ -1,0 +1,164 @@
+#Content{
+     width: 100vw;
+    height: auto + 20pc;
+    /* background: #F09819; 
+background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  
+background: linear-gradient(to right, #EDDE5D, #F09819);   */
+/*  
+  background-image: url('../images/hotel2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* background-color: violet; */
+}
+
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 3.5pc;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+  
+}
+
+#nav span {
+    position: absolute;
+    right: 1pc;
+    top: 5pc;
+    width: 30vw;
+    height: 90vh;
+    background-color: white;
+    z-index: 1;
+    box-shadow: -3px -4px 5px 0px rgba(0,0,0,0.75);
+}
+
+#nav ::placeholder{
+    color: #ADD8E6;
+}
+
+#nav h4{
+    /* text-align: center; */
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: #024376;
+    margin-top: 0.5pc;
+    cursor: pointer;
+}
+
+#nav input {
+   
+    width: 25pc;
+    background: transparent;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #35A4FB;
+    height: 3pc;
+    margin-left: -15pc;
+    color: #35A4FB;
+    font-size: 22px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+   
+}
+
+#nav p {
+    margin-left: 2pc;
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: #35A4FB;
+
+}
+
+#nav h3{
+    margin-left: 5pc;
+    font-size: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: red;
+    margin-top: 0.5pc;
+}
+
+#display {
+    /* background-color: red; */
+    padding: 25px 10px 10px 10px;
+    height: auto;
+    width: 100vw;
+    /* margin-bottom: 15pc; */
+
+}
+
+#main {
+    width: 33vw;
+    height: 45vh;
+    /* background-color: blue; */
+    margin-top:2pc ;
+    margin-left: 7pc;
+    margin-bottom: 8pc;
+}
+
+
+#nameBtn {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 5pc;
+    width: 520px;
+    margin-top: -1pc;
+}
+
+#nameBtn > * {
+    margin-top: 1pc;
+}
+
+#nameBtn h3 {
+    /* text-align: center; */
+    font-size: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: #024376;
+}
+
+#nameBtn  button{
+    /* margin-left: 4pc; */
+    width: 10pc;
+    height:3pc;
+    /* margin-left: 15pc; */
+    /* margin-top: 2pc; */
+    outline: none;
+    border: 2px solid #0476D0 ;
+    color: #0476D0;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+#nav button {
+      margin-left: 4pc;
+      width: 10pc;
+      height:3pc;
+      /* margin-left: 15pc; */
+      /* margin-top: 2pc; */
+      outline: none;
+      border: 2px solid #0476D0 ;
+      color: #0476D0;
+      background: transparent;
+      font-size: 20px;
+      font-family: 'Barlow Condensed', sans-serif;
+      letter-spacing: 2px;
+      font-size: 22px;
+      
+}
+
+#history {
+    width: 95%;
+    height: 4pc;
+    background-color: #FFFFFF;
+    display: flex;
+    margin-top: 1pc;
+    margin-left: 1pc;
+    align-items: center;
+    box-shadow: -3px -3px 5px 0px rgba(41,35,35,0.75);
+}

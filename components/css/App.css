@@ -1,0 +1,88 @@
+#outer {
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #F09819; 
+background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  
+background: linear-gradient(to right, #EDDE5D, #F09819);  */
+ 
+  background-image: url('../../images/hotel2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+     position: absolute;
+     top: 3pc;
+     left: 13pc;
+    font-size: 40px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+#MainLine {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: #024376;
+}
+
+::placeholder{
+    color: white;
+}
+
+#auth {
+    width: 50vw;
+    height: 80vh;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+   margin-right: 15pc;
+}
+
+#inp > * {
+  margin-top: 3.5pc;
+  width: 25pc;
+  background: transparent;
+  outline: none;
+  border:none;
+  border-bottom: 1px solid #35A4FB;
+  height: 3pc;
+  /* margin-left: 7pc; */
+  color: #35A4FB;
+  font-size: 22px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+ /* margin-right: 15pc; */
+}
+
+#abtn {
+    margin-top: 4pc;
+}
+
+#abtn button {
+    margin-left: 4pc;
+    width: 15pc;
+    height:3pc;
+    /* margin-left: 15pc; */
+    /* margin-top: 2pc; */
+    outline: none;
+    border: 2px solid #0476D0 ;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+

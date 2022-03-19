@@ -1,0 +1,58 @@
+#add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../images/hotel2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainC h4 {
+    font-size: 35px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: red;
+    margin-top: 0.5pc;
+}
+
+#mainC {
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+#mainC input {
+    width: 25pc;
+    background: transparent;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #35A4FB;
+    height: 3pc;
+    margin-top: 3pc;
+    color: #35A4FB;
+    font-size: 22px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+#mainC button {
+    margin-left: 3pc;
+    width: 10pc;
+    height:3pc;
+    /* margin-left: 15pc; */
+    margin-top: 2pc;
+    outline: none;
+    border: 2px solid #0476D0 ;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-size: 22px;
+}

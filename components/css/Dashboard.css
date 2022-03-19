@@ -1,0 +1,82 @@
+#dashboard {
+    display: flex;
+}
+
+#hotelData {
+    width: 50vw;
+}
+
+  #dashboard .name {
+    margin-left: 5pc;
+    font-size: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: red;
+    margin-top: 0.5pc;
+   
+}
+
+
+#hotelData p {
+     margin-left: 2pc;
+     font-size: 25px;
+     font-family: 'Barlow Condensed', sans-serif;
+     letter-spacing: 3px;
+     color: #024376;
+     margin-top: 0.5pc;
+    
+}
+
+ #room #inp {
+    margin-top: 10pc;
+    margin-left: 10pc;
+}
+
+#room button {
+     width: 10pc;
+     height:3pc;
+     position: absolute;
+     right: 5px;
+     top: 5px;
+     outline: none;
+     border: 2px solid #0476D0 ;
+     color: #0476D0;
+     background: transparent;
+     font-size: 20px;
+     font-family: 'Barlow Condensed', sans-serif;
+     letter-spacing: 2px;
+     font-size: 22px;
+}
+
+#room h4 {
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: #024376;
+    margin-top: 0.5pc;
+}
+
+#room input {
+    margin-left: 10pc;
+    width: 15pc;
+    background: transparent;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #35A4FB;
+    height: 3pc;
+    color: #35A4FB;
+    font-size: 22px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+   
+}
+
+#roomData {
+    margin-left: 10pc;
+    margin-top: 5pc;
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: #024376;
+
+}
